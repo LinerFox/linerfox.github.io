@@ -1,92 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap"
-      rel="stylesheet"
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
     />
-    <link rel="stylesheet" href="style.css" />
-    <title>Personal Portfolio</title>
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>React App</title>
   </head>
-
   <body>
-    <!-- Navbar -->
-    <nav class="navbar">
-      <h1 class="brand">logo</h1>
-      <ul class="links-container">
-        <li class="links-item"><a href="#" class="link active">home</a></li>
-        <li class="links-item"><a href="#about" class="link">about</a></li>
-        <li class="links-item"><a href="#" class="link">projects</a></li>
-        <li class="links-item"><a href="#" class="link">contact</a></li>
-      </ul>
-    </nav>
-    <!-- HOME SECTION -->
-    <section class="home">
-      <div class="hero-content">
-        <h1 class="hero-heading"><span class="highlight">Hi,</span>I am Joe</h1>
-        <p class="profession">web developer | Artist</p>
-        <p class="info">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel officia
-          labore, vitae corporis voluptatum tempore!
-        </p>
-        <a href="#contact" class="btn">Contact</a>
-      </div>
-      <img src="./img/homeProfile.png" class="image" alt="" />
-    </section>
-    <!-- ABOUT SECTION -->
-    <section class="about" id="about">
-      <h2 class="heading">about<span class="highlight"> me</span></h2>
-      <p class="sub-heading">Lorem ipsum dolor sit amet consectetur.</p>
-      <div class="separator"></div>
-      <div class="about-container">
-        <div class="left-col">
-          <img src="./img/homeProfile.png" alt="" srcset="" />
-        </div>
-        <div class="right-col">
-          <p class="about-p">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Laboriosam, nisi amet impedit nostrum unde labore id quia
-            perspiciatis, debitis eum distinctio, voluptatem qui provident
-            dolores enim eveniet libero vero. Voluptates.
-          </p>
-          <a href="#" class="btn">Download CV</a>
-        </div>
-      </div>
-      <h2 class="heading">Languages & Frameworks I work with</h2>
-      <div class="separator"></div>
-      <div class="skill-container">
-        <div class="skill-card" style="--bg: #f06529">
-          <p class="skill">HTML</p>
-        </div>
-        <div class="skill-card" style="--bg: #379ad6">
-          <p class="skill">CSS</p>
-        </div>
-        <div class="skill-card" style="--bg: #f7df1e">
-          <p class="skill">Javascript | ES6</p>
-        </div>
-        <div class="skill-card" style="--bg: #00d8ff">
-          <p class="skill">React.js</p>
-        </div>
-        <div class="skill-card" style="--bg: #6cc24a">
-          <p class="skill">Node.js</p>
-        </div>
-        <div class="skill-card" style="--bg: #ffde57">
-          <p class="skill">Python</p>
-        </div>
-        <div class="skill-card" style="--bg: #ff9500">
-          <p class="skill">Firebase</p>
-        </div>
-        <div class="skill-card" style="--bg: #f06529">
-          <p class="skill">More</p>
-        </div>
-      </div>
-    </section>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
 
-    <script src="app.js"></script>
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
   </body>
 </html>
