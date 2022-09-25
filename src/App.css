@@ -8,5 +8,72 @@
   /* ====== COLORS ====== */
   --hue: 0;
   --sat: 0%;
-  --title-color: ;
+  --title-color: hsl(var(--hue), var(--sat), 20%);
+  --title-color-dark: hsl(var(var(--hue)), var(--sat), 0%);
+  --text-color: hsl(var(--hue), var(--sat), 48%);
+  --body-color: hsl(var(--hue), var(--sat), 98%);
+  --container-color: #fff;
+  /* ====== Font And Typography ====== */
+  --body-font: "Quicksand", sans-serif;
+
+  /*  .5rem = 8px | 1rem = 16px */
+  --lg-font-size: 3.5rem;
+  --h1: 2.25rem;
+  --h2: 1.5rem;
+  --h3: 1.25rem;
+  --normal: 1rem;
+  --font-sm: 0.875rem;
+  --font-xs: 0.813rem;
+  --font-2xs: 0.625rem;
+
+  /* ====== Font Weight ====== */
+  --font-normal: 400;
+  --font-medium: 500;
+  --font-semibold: 600;
+
+  /* ====== Margin Bottom ====== */
+  /*  .5rem = 8px | 1rem = 16px */
+  --mb-0-25: 0.25rem;
+  --mb-0-5: 0.5rem;
+  --mb-0-75: 0.75rem;
+  --mb-1: 1rem;
+  --mb-1-5: 1.5rem;
+  --mb-2: 2rem;
+  --mb-2-5: 2.5rem;
+  --mb-3: 3rem;
+
+  /* ====== Z INDEX ====== */
+  --z-tooltip: 10;
+  --z-fixed: 100;
+  --z-modal: 1000;
+}
+
+/* Responsive Typography */
+@media screen and (max-width: 992px) {
+  :root {
+    --lg-font-size: 2.75rem;
+    --h1: 1.5rem;
+    --h2: 1.25rem;
+    --h3: 1rem;
+    --normal: 0.938rem;
+    --font-sm: 0.813rem;
+    --font-xs: 0.75rem;
+  }
+}
+
+/* ====== BASE ====== */
+
+/* ====== REUSABLE CSS CLASSES ====== */
+
+/* ====== LAYOUT ====== */
+
+/* ====== BUTTONS ====== */
+
+/* ====== BREAKPOINTS ====== */
+/* ====== LG DEVICES ====== */
+@media screen and (max-width: 992px) {
+}
+
+/* ====== MD DEVICES ====== */
+@media screen and (max-width: 768px) {
 }
