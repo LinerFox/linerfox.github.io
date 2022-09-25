@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&display=swap");
 
 /* ======= VARIABLE CSS ============ */
 
@@ -166,8 +166,20 @@ img {
 /* ====== BREAKPOINTS ====== */
 /* ====== LG DEVICES ====== */
 @media screen and (max-width: 992px) {
+  .container {
+    margin-left: var(--mb-1-5);
+    margin-right: var(--mb-1-5);
+  }
 }
 
 /* ====== MD DEVICES ====== */
 @media screen and (max-width: 768px) {
+}
+
+/* ====== SM DEVICES ====== */
+@media screen and (max-width: 350px) {
+  .container {
+    margin-left: var(--mb-1-5);
+    margin-right: var(--mb-1-5);
+  }
 }
