@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Quicksand:wght@300;400;500;600&display=swap");
 
 /* ======= VARIABLE CSS ============ */
 
@@ -8,13 +8,13 @@
   /* ====== COLORS ====== */
   --hue: 0;
   --sat: 0%;
-  --title-color: hsl(var(--hue), var(--sat), 20%);
-  --title-color-dark: hsl(var(var(--hue)), var(--sat), 0%);
-  --text-color: hsl(var(--hue), var(--sat), 48%);
-  --body-color: hsl(var(--hue), var(--sat), 98%);
+  --title-color: #333;
+  --title-color-dark: #000;
+  --text-color: #969696;
+  --body-color: #fafafa;
   --container-color: #fff;
   /* ====== Font And Typography ====== */
-  --body-font: "Quicksand", sans-serif;
+  --body-font: "Poppins", sans-serif;
 
   /*  .5rem = 8px | 1rem = 16px */
   --lg-font-size: 3.5rem;
