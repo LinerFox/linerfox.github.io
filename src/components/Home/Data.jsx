@@ -9,10 +9,6 @@ const Data = () => {
         I am a web developer and 3D artist located in Florida. I&apos;m very
         passionate about and dedicated to my work.
       </p>
-      <a href='#contact' className='button button--flex'>
-        Say Hello
-        <i class='uil uil-message'></i>
-      </a>
     </div>
   );
 };
