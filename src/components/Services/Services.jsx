@@ -15,7 +15,7 @@ const Services = () => {
         <div className='services__content'>
           <div>
             <i className='uil uil-web-grid services__icon'></i>
-            <h3 className='services__title'>Product Designer</h3>
+            <h3 className='services__title'>ReactJS Developer</h3>
             <span className='services__button' onClick={() => toggleTab(1)}>
               View More{" "}
               <i className='uil uil-arrow-right services__button-icon'></i>{" "}
@@ -32,30 +32,36 @@ const Services = () => {
                   onClick={() => toggleTab(0)}
                   className='uil uil-times services__modal-close'
                 ></i>
-                <h3 className='services__modal-title'>Product Designer</h3>
+                <h3 className='services__modal-title'>ReactJS Developer</h3>
                 <p className='services__modal-description'>
-                  Service with over 3 years of knowledge and experience applied.
+                  Service with over 3 years of knowledge applied.
                 </p>
                 <ul className='services__modal-services grid'>
                   <li className='services__modal-service'>
                     <i className='uil uil-check-circle services__modal-icon'></i>
-                    <p className='services__modal-info'>I developed the UI.</p>
-                  </li>
-
-                  <li className='services__modal-service'>
-                    <i className='uil uil-check-circle services__modal-icon'></i>
-                    <p className='services__modal-info'>Web Page Development</p>
-                  </li>
-
-                  <li className='services__modal-service'>
-                    <i className='uil uil-check-circle services__modal-icon'></i>
-                    <p className='services__modal-info'>UX Development</p>
+                    <p className='services__modal-info'>
+                      Currently Develop with ReactJS 18
+                    </p>
                   </li>
 
                   <li className='services__modal-service'>
                     <i className='uil uil-check-circle services__modal-icon'></i>
                     <p className='services__modal-info'>
-                      Design and Mockups with Product placement
+                      I use a from scratch approach
+                    </p>
+                  </li>
+
+                  <li className='services__modal-service'>
+                    <i className='uil uil-check-circle services__modal-icon'></i>
+                    <p className='services__modal-info'>
+                      Components are Microserviced
+                    </p>
+                  </li>
+
+                  <li className='services__modal-service'>
+                    <i className='uil uil-check-circle services__modal-icon'></i>
+                    <p className='services__modal-info'>
+                      Deployment on Netlify, AWS, Heroku.
                     </p>
                   </li>
                 </ul>
@@ -67,7 +73,7 @@ const Services = () => {
         <div className='services__content'>
           <div>
             <i className='uil uil-arrow services__icon'></i>
-            <h3 className='services__title'>UI / UX Designer</h3>
+            <h3 className='services__title'>Frontend Developer</h3>
             <span onClick={() => toggleTab(2)} className='services__button'>
               View More{" "}
               <i className='uil uil-arrow-right services__button-icon'></i>{" "}
@@ -84,82 +90,37 @@ const Services = () => {
                   onClick={() => toggleTab(0)}
                   className='uil uil-times services__modal-close'
                 ></i>
-                <h3 className='services__modal-title'>UI / UX Designer</h3>
+                <h3 className='services__modal-title'>Frontend Developer</h3>
                 <p className='services__modal-description'>
                   Service with over 3 years of knowledge and experience applied.
                 </p>
                 <ul className='services__modal-services grid'>
                   <li className='services__modal-service'>
                     <i className='uil uil-check-circle services__modal-icon'></i>
-                    <p className='services__modal-info'>I developed the UI.</p>
-                  </li>
-
-                  <li className='services__modal-service'>
-                    <i className='uil uil-check-circle services__modal-icon'></i>
-                    <p className='services__modal-info'>Web Page Development</p>
-                  </li>
-
-                  <li className='services__modal-service'>
-                    <i className='uil uil-check-circle services__modal-icon'></i>
-                    <p className='services__modal-info'>UX Development</p>
-                  </li>
-
-                  <li className='services__modal-service'>
-                    <i className='uil uil-check-circle services__modal-icon'></i>
                     <p className='services__modal-info'>
-                      Design and Mockups with Product placement
+                      Developed with 'Mobile First Approach'
                     </p>
                   </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div className='services__content'>
-          <div>
-            <i className='uil uil-edit services__icon'></i>
-            <h3 className='services__title'>Visual Designer</h3>
-            <span onClick={() => toggleTab(3)} className='services__button'>
-              View More{" "}
-              <i className='uil uil-arrow-right services__button-icon'></i>{" "}
-            </span>
-            <div
-              className={
-                toggleState === 3
-                  ? "services__modal active-modal"
-                  : "services__modal"
-              }
-            >
-              <div className='services__modal-content'>
-                <i
-                  onClick={() => toggleTab(0)}
-                  className='uil uil-times services__modal-close'
-                ></i>
-                <h3 className='services__modal-title'>Visual Designer</h3>
-                <p className='services__modal-description'>
-                  Service with over 3 years of knowledge and experience applied.
-                </p>
-                <ul className='services__modal-services grid'>
                   <li className='services__modal-service'>
                     <i className='uil uil-check-circle services__modal-icon'></i>
-                    <p className='services__modal-info'>I developed the UI.</p>
-                  </li>
-
-                  <li className='services__modal-service'>
-                    <i className='uil uil-check-circle services__modal-icon'></i>
-                    <p className='services__modal-info'>Web Page Development</p>
-                  </li>
-
-                  <li className='services__modal-service'>
-                    <i className='uil uil-check-circle services__modal-icon'></i>
-                    <p className='services__modal-info'>UX Development</p>
+                    <p className='services__modal-info'>
+                      Web Page Development utilizing HTML, CSS3, Javascript.
+                    </p>
                   </li>
 
                   <li className='services__modal-service'>
                     <i className='uil uil-check-circle services__modal-icon'></i>
                     <p className='services__modal-info'>
-                      Design and Mockups with Product placement
+                      Latest standards are used: WCAG, SCSS, and Babel to create
+                      error free code.
+                    </p>
+                  </li>
+
+                  <li className='services__modal-service'>
+                    <i className='uil uil-check-circle services__modal-icon'></i>
+                    <p className='services__modal-info'>
+                      Figma is used to create Mockups and Design Deliverables.
+                      Icons are carefully created by hand in Illustrator.
                     </p>
                   </li>
                 </ul>
