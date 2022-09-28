@@ -49,43 +49,6 @@ const Contact = () => {
             </div> */}
           </div>
         </div>
-        <div className='contact__content'>
-          <h3 className='contact__title'>Tell me about your project!</h3>
-          <form className='contact__form'>
-            <div className='contact__form-div'>
-              <label className='contact__form-tag'>Name:</label>
-              <input
-                type='text'
-                name='name'
-                className='contact__form-input'
-                placeholder='Insert yoru name'
-              />
-            </div>
-
-            <div className='contact__form-div'>
-              <label className='contact__form-tag'>Email:</label>
-              <input
-                type='email'
-                name='email'
-                className='contact__form-input'
-                placeholder='Insert your Email'
-              />
-            </div>
-            <div className='contact__form-div contact__form-area'>
-              <label className='contact__form-tag'>Project</label>
-              <textarea
-                name='project'
-                cols='30'
-                rows='10'
-                className='contact__form-input'
-                placeholder='Tell me about your Project'
-              ></textarea>
-            </div>
-            <button className='button contact__button button--flex'>
-              Send Message <i className='bx bxs-send contact__button-icon'></i>
-            </button>
-          </form>
-        </div>
       </div>
     </section>
   );
