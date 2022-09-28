@@ -4,23 +4,23 @@ const Social = () => {
   return (
     <div className='home__social'>
       <a
-        href='https://www.linkedin.com'
+        href='https://www.linkedin.com/in/joseph-chu-developer'
         className='home__social-icon'
         target='_blank'
         rel='noreferrer'
       >
         <i class='uil uil-linkedin-alt'></i>
       </a>
-      <a
+      {/* <a
         href='https://www.dribbble.com'
         className='home__social-icon'
         target='_blank'
         rel='noreferrer'
       >
         <i class='uil uil-dribbble'></i>
-      </a>
+      </a> */}
       <a
-        href='https://www.github.com'
+        href='https://github.com/LinerFox'
         className='home__social-icon'
         target='_blank'
         rel='noreferrer'
