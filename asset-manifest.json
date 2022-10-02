@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.04cddcc6.css",
+    "main.js": "/portfolio/static/js/main.3c44e432.js",
+    "static/media/project1.png": "/portfolio/static/media/project1.48e6c3a41076a5689896.png",
+    "static/media/profile.jpg": "/portfolio/static/media/profile.8145c94d81813adba3b7.jpg",
+    "static/media/joseph_chu_resume.docx": "/portfolio/static/media/joseph_chu_resume.c0389cf78ed0843a4435.docx",
+    "index.html": "/portfolio/index.html",
+    "main.04cddcc6.css.map": "/portfolio/static/css/main.04cddcc6.css.map",
+    "main.3c44e432.js.map": "/portfolio/static/js/main.3c44e432.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.04cddcc6.css",
+    "static/js/main.3c44e432.js"
+  ]
+}
